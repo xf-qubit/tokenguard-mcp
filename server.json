@@ -15,5 +15,11 @@
         "type": "stdio"
       }
     }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://eltociear-tokenguard.hf.space/mcp"
+    }
   ]
 }
