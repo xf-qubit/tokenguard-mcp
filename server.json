@@ -1,25 +1,27 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.eltociear/tokenguard-mcp",
-  "description": "40+ crypto & DeFi data tools for AI agents: price, gas, TVL, whales, options, ERC-20 safety",
+  "description": "Real-world data for agents: air quality, geocoding, quakes, holidays, web search",
   "repository": {
     "url": "https://github.com/eltociear/tokenguard-mcp",
     "source": "github"
   },
-  "version": "1.0.0",
-  "packages": [
-    {
-      "registryType": "oci",
-      "identifier": "ghcr.io/eltociear/tokenguard-mcp:mcp-1.0.0",
-      "transport": {
-        "type": "stdio"
-      }
-    }
-  ],
+  "version": "1.2.1",
   "remotes": [
     {
       "type": "streamable-http",
       "url": "https://eltociear-tokenguard.hf.space/mcp"
+    }
+  ],
+  "title": "TokenGuard — Real-World Data Tools for Agents",
+  "websiteUrl": "https://github.com/eltociear/tokenguard-mcp",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/eltociear/skill-audit-mcp/main/assets/logo.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "400x400"
+      ]
     }
   ]
 }
